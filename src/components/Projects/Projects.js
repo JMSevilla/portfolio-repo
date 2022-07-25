@@ -46,8 +46,7 @@ function Projects() {
             <ProjectCard
               imgPath={'http://www.gtcapital.com.ph/storage/uploads/2017/09/59bc94ce59565.png'}
               isBlog={false}
-              title="Dynamic Forms | Metrobank"
-              description="A Dynamic and real time collaborative form to edit by the employees of metrobank. The system was inspired by google forms. This system was maintained under my company and team"            
+              title="Dynamic Forms | Metrobank"            
               githide={true}
             />
           </Col>
@@ -57,6 +56,22 @@ function Projects() {
               imgPath={'https://www.cimbbank.com.ph/en/digital-banking/our-partners/bayad-center/_jcr_content/root/responsivegrid/responsivegrid/image_copy_copy.img.png/1576135225099/bayad-center.png'}
               isBlog={false}
               title="Bayad Center | Meralco"
+              githide={true}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={'https://i.imgur.com/Gl36JAd.jpg'}
+              isBlog={false}
+              title="Online Banking | BPI"
+              githide={true}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={'https://upload.wikimedia.org/wikipedia/commons/9/91/Globe-logo.png'}
+              isBlog={false}
+              title="GCASH | Globe Telecom"
               githide={true}
             />
           </Col>

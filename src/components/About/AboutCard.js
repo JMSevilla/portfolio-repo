@@ -31,7 +31,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-          “My Arsenals will be awaken once i got a client.”{" "}
+          “My Arsenals will down to be awaken with purpose.”{" "}
           </p>
           <footer className="blockquote-footer">JM</footer>
         </blockquote>
