@@ -5,21 +5,26 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
+  DiJava,
   DiPython,
   DiGit,
+  DiLaravel,
+  DiPhp, DiPostgresql
 } from "react-icons/di";
+
 import {
   SiPytorch,
   SiFirebase,
   SiNextdotjs,
+  SiVuedotjs,
+  SiCsharp, SiMicrosoftazure, SiSpring, SiNetlify, SiMysql, SiMicrosoftsqlserver, SiAmazonaws, SiTypescript
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -31,10 +36,13 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+      <DiReact /> <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVuedotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
@@ -43,10 +51,34 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiCsharp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftazure />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiSpring />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNetlify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftsqlserver />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
       </Col>
     </Row>
   );
