@@ -44,16 +44,31 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={'http://www.gtcapital.com.ph/storage/uploads/2017/09/59bc94ce59565.png'}
+              imgPath={
+                "http://www.gtcapital.com.ph/storage/uploads/2017/09/59bc94ce59565.png"
+              }
               isBlog={false}
-              title="Dynamic Forms | Metrobank"            
+              title="Dynamic Forms | Metrobank"
               githide={true}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={'https://www.cimbbank.com.ph/en/digital-banking/our-partners/bayad-center/_jcr_content/root/responsivegrid/responsivegrid/image_copy_copy.img.png/1576135225099/bayad-center.png'}
+              imgPath={
+                "http://www.gtcapital.com.ph/storage/uploads/2017/09/59bc94ce59565.png"
+              }
+              isBlog={false}
+              title="Online Banking | Metrobank"
+              githide={true}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={
+                "https://i0.wp.com/designfortomorrow.co/wp-content/uploads/2022/08/Bayad_Fintech_Philippines_branding_brand_identity_art_direction_bayad_center_old_logo_1-1.jpg?resize=1071%2C955&ssl=1"
+              }
               isBlog={false}
               title="Bayad Center | Meralco"
               githide={true}
@@ -61,7 +76,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={'https://i.imgur.com/Gl36JAd.jpg'}
+              imgPath={"https://i.imgur.com/Gl36JAd.jpg"}
               isBlog={false}
               title="Online Banking | BPI"
               githide={true}
@@ -69,7 +84,19 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={'https://upload.wikimedia.org/wikipedia/commons/9/91/Globe-logo.png'}
+              imgPath={
+                "https://dev-nclexpower.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCoreZigma.59046c4f.png&w=256&q=75"
+              }
+              isBlog={false}
+              title="NCLEX Power Multi-Integrated Systems"
+              githide={true}
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={
+                "https://upload.wikimedia.org/wikipedia/commons/9/91/Globe-logo.png"
+              }
               isBlog={false}
               title="GCASH | Globe Telecom"
               githide={true}

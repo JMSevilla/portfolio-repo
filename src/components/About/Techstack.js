@@ -9,7 +9,10 @@ import {
   DiPython,
   DiGit,
   DiLaravel,
-  DiPhp, DiPostgresql
+  DiPhp,
+  DiPostgresql,
+  DiJira,
+  DiDocker,
 } from "react-icons/di";
 
 import {
@@ -17,7 +20,14 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiVuedotjs,
-  SiCsharp, SiMicrosoftazure, SiSpring, SiNetlify, SiMysql, SiMicrosoftsqlserver, SiAmazonaws, SiTypescript
+  SiCsharp,
+  SiMicrosoftazure,
+  SiSpring,
+  SiNetlify,
+  SiMysql,
+  SiMicrosoftsqlserver,
+  SiAmazonaws,
+  SiTypescript,
 } from "react-icons/si";
 
 function Techstack() {
@@ -36,7 +46,7 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-      <DiReact /> <SiTypescript />
+        <DiReact /> <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
@@ -79,6 +89,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJira />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
       </Col>
     </Row>
   );
